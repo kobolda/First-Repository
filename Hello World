@@ -1,0 +1,25 @@
+<html>
+<head>
+<p1>Welcome</p>
+</head>
+<body>
+<h1>To the real world</h1>
+</body>
+
+<style>
+body {
+background-color: #123456
+}
+
+h1 {
+color: magenta
+}
+</style>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+</html>
